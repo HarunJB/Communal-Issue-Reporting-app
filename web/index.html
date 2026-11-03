@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -18,19 +18,30 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Report and track communal problems in Sarajevo: potholes, broken street lighting, illegal dumping and more.">
+  <meta name="theme-color" content="#17324D">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="product_mobile">
+  <meta name="apple-mobile-web-app-title" content="Sarajevo Reports">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>product_mobile</title>
+  <title>Sarajevo Reports</title>
   <link rel="manifest" href="manifest.json">
+
+  <!-- Matches the app background so there is no white flash while Flutter loads -->
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      background-color: #F7F8F6;
+    }
+  </style>
 </head>
 <body>
   <!--
